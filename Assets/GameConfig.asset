@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 618e81dbc417a436daa64d8de344ed2a, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: Assembly-CSharp::TsumGame.Core.GameConfig
+  boardWidth: 8
+  boardHeight: 8
+  cellSpacing: 1
+  redSprite: {fileID: -7512434501291994743, guid: bbe8209ffd53f469bb08dd6dca42bc1a, type: 3}
+  blueSprite: {fileID: -163631133, guid: bbe8209ffd53f469bb08dd6dca42bc1a, type: 3}
+  greenSprite: {fileID: -29500415, guid: bbe8209ffd53f469bb08dd6dca42bc1a, type: 3}
+  yellowSprite: {fileID: -1265102381, guid: bbe8209ffd53f469bb08dd6dca42bc1a, type: 3}
+  purpleSprite: {fileID: 618137819, guid: bbe8209ffd53f469bb08dd6dca42bc1a, type: 3}
+  redColor: {r: 1, g: 0.75686276, b: 0.7921569, a: 1}
+  blueColor: {r: 0.47058824, g: 0.6509804, b: 0.7411765, a: 1}
+  greenColor: {r: 0.99215686, g: 0.93333334, b: 0.8, a: 1}
+  yellowColor: {r: 0.7882353, g: 0.9019608, b: 0.9607843, a: 1}
+  purpleColor: {r: 0.5803922, g: 0.39607844, b: 0.30980393, a: 1}
+  highlightColor: {r: 1, g: 1, b: 1, a: 0.7}
+  minPiecesToErase: 3
+  gameTime: 60
+  baseScorePerPiece: 10
+  comboMultipliers:
+  - 1
+  - 1.5
+  - 2
+  - 2.5
+  - 3
+  - 4
+  - 5
+  - 6
+  - 8
+  - 10
+  comboResetTime: 2
+  pieceEraseAnimationDuration: 0.2
+  pieceFallAnimationDuration: 0.3
+  poolInitialSize: 100
+  poolMaxSize: 150
