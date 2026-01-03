@@ -19,7 +19,7 @@ namespace TsumGame.UI
 
         [Header("Settings")]
         [SerializeField] private ScoreManager scoreManager;
-        [SerializeField] private string gameTitle = "ツムツムゲーム";
+        [SerializeField] private string gameTitle = "ちいつむ";
         [SerializeField] private string gameUrl = "https://kaya5777.github.io/tumu-game/";
 
         private int finalScore;

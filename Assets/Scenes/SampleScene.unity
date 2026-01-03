@@ -496,7 +496,7 @@ MonoBehaviour:
   postToXButton: {fileID: 1271608077}
   scoreManager: {fileID: 1625584662}
   gameTitle: "\u3061\u3044\u3064\u3080"
-  gameUrl: https://yourusername.github.io/yourrepo/
+  gameUrl: https://kaya5777.github.io/tumu-game/
 --- !u!1 &456305898
 GameObject:
   m_ObjectHideFlags: 0
